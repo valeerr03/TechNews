@@ -109,7 +109,7 @@ main{
     align-items: flex-start;
     padding: 20px;
     gap: 40px;
-    text-align: start;
+    /* text-align: start; */
 }
 
 .title-front{
@@ -201,7 +201,7 @@ main{
     gap: 100px;
 }
 
-.text-info{
+.info-tech p{
     display: flex;
     align-items: flex-end;
     height: 100px;
@@ -209,7 +209,7 @@ main{
 
 .img-info{
     height: 300px;
-} 
+}
 
 footer{
     display: flex;
