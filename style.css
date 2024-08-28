@@ -86,7 +86,10 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 40px;
 }
+
+/* ========== SECTION FRONT ========== */
 
 #front-page{
     background-color: white;
@@ -103,7 +106,7 @@ main{
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .principal{
@@ -179,6 +182,8 @@ main{
     height: 300px;
 }
 
+/* ========== SECTION INFO ========== */
+
 #section-info{
     background-color: white;
     display: flex;
@@ -186,7 +191,6 @@ main{
     justify-content: space-between;
     align-items: center;
     padding: 150px;
-    margin-top: 40px;
     height: 350px;
     width: 1800px;
     border-radius: 3rem;
@@ -194,7 +198,7 @@ main{
     -moz-border-radius: 3rem;
     -ms-border-radius: 3rem;
     -o-border-radius: 3rem;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.75);
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
 .info-tech{
@@ -214,6 +218,74 @@ main{
 .img-info{
     height: 300px;
 }
+
+/* ========== CARD SECTION ========== */
+
+#cards-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 3rem;
+    -webkit-border-radius: 3rem;
+    -moz-border-radius: 3rem;
+    -ms-border-radius: 3rem;
+    -o-border-radius: 3rem;
+    height: 650px;
+    width: 1800px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.25);
+    gap: 20px;
+    
+}
+
+.text-advantages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.text-advantages h1{
+    color: var(--primary);
+    font-size: 40px;
+}
+
+.text-advantages p{
+    font-size: 20px;
+}
+
+#cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h1{
+    font-weight: 600;
+    color: var(--primary);
+}
+
+.card img{
+    height: 100px;
+}
+
+/* ========== FOOTER ========== */
 
 footer{
     display: flex;
